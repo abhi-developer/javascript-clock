@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#clock {
+    color:  #039be6;
+    font-size: 120px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 770px) {
+    #clock {
+        font-size: 53px;
+    }
+}
